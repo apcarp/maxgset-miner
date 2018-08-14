@@ -67,7 +67,7 @@ Additional Metadata to be saved for each MaxGSET value
    - Hall C PV: IBC3H00CRCUR4
    - Hall D PV: IBCAD00CRCUR64545
 
-
+```
 min_duration = 4 hours
 max_trip_rate = 0.5 / hour
 
@@ -87,3 +87,4 @@ foreach cavity
   end foreach gset_segment
   cavity_MaxGset = max
 end foreach cavity
+```
